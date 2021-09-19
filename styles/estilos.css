@@ -3,12 +3,10 @@
    ul {
        list-style: none;
    }
-   /*quitar el margen por defecto que trae el body*/
    
    body {
        margin: 0 px
    }
-   /*ajustar con una clase la distribución de la lista => display*/
    
    .navbar {
        display: flex;
@@ -16,4 +14,8 @@
        padding: 0px;
        margin: 0px;
        padding: 10px;
+   }
+   
+   .logo {
+       height: 35px;
    }
