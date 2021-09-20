@@ -14,20 +14,14 @@ ul {
     padding: 10px;
 }
 
-
-/*crear una clase para un boton generico y agregarle estilos*/
-
-.botonGenerico {
+.button {
     border: 0px;
     padding: 5px 10px;
     font-weight: bold;
     border-radius: 10px;
 }
 
-
-/*crear una subclasse al boton generico y agregarle estilos*/
-
-.botonGenerico:hover {
+.button:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
