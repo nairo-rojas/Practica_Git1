@@ -15,7 +15,21 @@
        margin: 0px;
        padding: 10px;
    }
+   /*crear una clase para botones principales y ajustar sus caracteristicas*/
    
-   .logo {
-       height: 35px;
+   .mainButton {
+       background-color: rgb(65, 204, 52);
+       color: white;
+       border: 0px;
+       padding: 5px 10px;
+       border-radius: 10px;
+       font-weight: bold;
+       box-shadow: 2px 2px green;
+   }
+   /*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
+   
+   .mainButton:hover {
+       cursor: pointer;
+       box-shadow: 5px 5px gray;
+       transform: scale(1.2);
    }
