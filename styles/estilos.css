@@ -1,35 +1,55 @@
-   /*quitar los estilos a la lista*/
-   
-   ul {
-       list-style: none;
-   }
-   
-   body {
-       margin: 0 px
-   }
-   
-   .navbar {
-       display: flex;
-       justify-content: space-between;
-       padding: 0px;
-       margin: 0px;
-       padding: 10px;
-   }
-   /*crear una clase para botones principales y ajustar sus caracteristicas*/
-   
-   .mainButton {
-       background-color: rgb(65, 204, 52);
-       color: white;
-       border: 0px;
-       padding: 5px 10px;
-       border-radius: 10px;
-       font-weight: bold;
-       box-shadow: 2px 2px green;
-   }
-   /*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
-   
-   .mainButton:hover {
-       cursor: pointer;
-       box-shadow: 5px 5px gray;
-       transform: scale(1.2);
-   }
+body {
+    margin: 0
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/*crear una clase para un boton generico y agregarle estilos*/
+
+.botonGenerico {
+    border: 0px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/*crear una subclasse al boton generico y agregarle estilos*/
+
+.botonGenerico:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mainButton {
+    background-color: rgb(65, 204, 52);
+    color: white;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.2);
+}
+
+.secundaryButton {
+    background-color: blue;
+    color: white;
+}
+
+.secundaryButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.2);
+}
